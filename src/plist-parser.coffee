@@ -1,11 +1,18 @@
-Object.prototype.inject = (path, value) ->
-	path_copy = path.slice()
-	param = path_copy.pop()
-
-	if path_copy.length > 1
-		return this[param].setByArray(path_copy, value)
+Object.prototype.inject = (path, contents) ->
+	param = path[0]
+	
+	if path.length > 1
+		this[param].inject(path.slice(1), contents)
 	else
-		this[param] = value
+		if this.hasOwnProperty(param)
+			if this[param] instanceof Array
+				for value in contents
+					this[param].push(v)
+			else
+				for key, value of contents
+					this[param][key] = value
+		else
+			this[param] = contents
 	
 	return
 
@@ -67,17 +74,12 @@ class PlistParser
 
 		@parents.push(@last.key)
 		@plist.inject(@parents, empty)
-
 		@last.key = null
 
 		return @parents.slice()
 
 	__inject: (type) ->
 		branch = @branches.pop()
-		plist = @plist
-
-		for p, i in branch.parents
-			plist = plist[p]
 
 		@plist.inject(branch.parents, branch.contents)
 
