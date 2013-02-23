@@ -1,9 +1,9 @@
 Object.prototype.inject = (path, contents) ->
-	param = path[0]
-	
 	if path.length > 1
+		param = path[0]
 		this[param].inject(path.slice(1), contents)
-	else
+	else if path.length == 1
+		param = path[0]
 		if this.hasOwnProperty(param)
 			if this[param] instanceof Array
 				for value in contents
@@ -13,6 +13,9 @@ Object.prototype.inject = (path, contents) ->
 					this[param][key] = value
 		else
 			this[param] = contents
+	else
+		for key, value of contents
+			this[key] = value
 	
 	return
 
