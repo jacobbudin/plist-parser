@@ -1,123 +1,138 @@
-Object.prototype.inject = (path, contents) ->
-	if path.length > 1
-		param = path[0]
-		this[param].inject(path.slice(1), contents)
-	else if path.length == 1
-		param = path[0]
-		if this.hasOwnProperty(param)
-			if this[param] instanceof Array
-				for value in contents
-					this[param].push(v)
-			else
-				for key, value of contents
-					this[param][key] = value
-		else
-			this[param] = contents
-	else
-		for key, value of contents
-			this[key] = value
-	
-	return
+class PlistNode
+	constructor: (type, parent=null) ->
+		@type = type
+		@key = null
+		@value = null
 
+		@parent = parent
+		@children = []
+
+		return @
+
+	addChild: (node) ->
+		node.parent = @
+		@children.push(node)
+		return node
+
+	getParent: () ->
+		if @parent
+			return @parent
+
+		return @
+
+	convert: () ->
+		if not @children.length
+			if @type == 'integer'
+				return parseInt(@value, 10)
+			else if @type == 'string'
+				return @value
+			else if @type == 'date'
+				try
+					return new Date(@value)
+				catch e
+					return null
+			else if @type == 'true'
+				return true
+			else if @type == 'false'
+				return false
+			else if @type == 'real'
+				return parseFloat(@value)
+			else if @type == 'data'
+				return decodeURIComponent(escape(window.atob(@value)))
+			else if @type == 'dict'
+				return {}
+			else if @type == 'array'
+				return []
+		else
+			if @type == 'dict'
+				iterable = {}
+				for child in @children
+					if child.key
+						iterable[child.key] = child.convert()
+			else if @type == 'array'
+				iterable = []
+				for child in @children
+					iterable.push(child.convert())
+
+		return iterable
 
 class PlistParser
 	constructor: (sax, xml) ->
 		@sax = sax
-		@plist = {}
-		@branches = []
-		@parents = []
-		@last = {}
+		@xml = xml
+		@traverser = null
+		@last = {
+			'parent': null,
+			'node': null,
+			'key': null,
+			'tag': null,
+			'value': null
+		}
+		@error = false
 
-		return @__parse(xml)
+		if not @validate()
+			return @error
 
-	__parse: (xml) ->
+		return @parse()
+
+
+	validate: ->
+		parser = @sax.parser(true)
+
+		parser.ondoctype = (doctype) =>
+			if doctype != ' plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"'
+				@error = new Error('Invalid DOCTYPE')
+
+		parser.onerror = (error) =>
+			@error = error
+
+		parser.write(@xml).close()
+
+		if @error
+			return false
+
+		return true
+
+	parse: ->
 		parser = @sax.parser(true)
 
 		parser.onopentag = (node) =>
-			if node.name == 'dict'
-				@branches.push(new PlistDict(@__frame({})))
+			if (node.name == 'plist')
+				@validates = true
+				return
 
-			else if node.name == 'array'
-				@branches.push(new PlistArray(@__frame([])))
+			else if (node.name == 'key')
+				@last.key = null
+				return
 
-			else
-				@last.tag = node.name
+			if not @traverser
+				@traverser = new PlistNode(node.name)
+				return
+			
+			@last.node = @traverser.addChild(new PlistNode(node.name))
+
+			if @last.key
+				@last.node.key = @last.key.valueOf()
+				@last.key = null
+
+			if (node.name == 'dict') or (node.name == 'array')
+				@traverser = @last.node
 
 		parser.ontext = (text) =>
 			@last.value = text
 
 		parser.onclosetag = (name) =>
-			if name == 'dict'
-				@__inject('dict')
-
-			else if name == 'array'
-				@__inject('array')
-
+			if (name == 'dict') or (name == 'array')
+				@traverser = @traverser.getParent()
 			else if name == 'key'
-				@last.key = @last.value
-
+				if @last.value
+					@last.key = @last.value.valueOf()
+					@last.value = null
 			else
-				if not @branches.length
-					return
-				
-				last_branch_index = @branches.length-1
+				if @last.value
+					@last.node.value = @last.value.valueOf()
 
-				if @last.key
-					@branches[last_branch_index].add(@last.key, @last.tag, @last.value)
-					@last.key = null
-				else
-					@branches[last_branch_index].add(@last.tag, @last.value)
-
-		parser.write(xml).close()
-		return @plist
-
-	__frame: (empty) ->
-		if not @last.key
-			return
-
-		@parents.push(@last.key)
-		@plist.inject(@parents, empty)
-		@last.key = null
-
-		return @parents.slice()
-
-	__inject: (type) ->
-		branch = @branches.pop()
-
-		@plist.inject(branch.parents, branch.contents)
-
-		@parents.pop()
-
-class PlistIterable
-	constructor: (parents=[]) ->
-		@parents = parents
-
-	add: (name, value) ->
-		if name == 'integer'
-			return parseInt(value, 10)
-		else if name == 'string'
-			return value
-		else if name == 'date'
-			return value
-		else if name == 'true'
-			return true
-		else if name == 'false'
-			return false		
-
-class PlistDict extends PlistIterable
-	constructor: (parents) ->
-		super parents
-		@contents = {}
-
-	add: (key, name, value) ->
-		@contents[key] = super name, value
-
-class PlistArray extends PlistIterable
-	constructor: (parents) ->
-		super parents
-		@contents = []
-
-	add: (name, value) ->
-		@contents.push(super name, value)
+		parser.write(@xml).close()
+		return @traverser.convert()
 
 window.PlistParser = PlistParser
