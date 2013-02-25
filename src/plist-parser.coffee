@@ -38,7 +38,7 @@ class PlistNode
 			else if @type == 'real'
 				return parseFloat(@value)
 			else if @type == 'data'
-				return decodeURIComponent(escape(window.atob(@value)))
+				return @value
 			else if @type == 'dict'
 				return {}
 			else if @type == 'array'
@@ -57,7 +57,10 @@ class PlistNode
 		return iterable
 
 class PlistParser
-	constructor: (sax, xml) ->
+	constructor: (xml, opts=null) ->
+		if not sax?
+			return new Error('Missing required dependency: sax-js (https://github.com/isaacs/sax-js)')
+
 		@sax = sax
 		@xml = xml
 		@traverser = null
@@ -68,20 +71,34 @@ class PlistParser
 			'tag': null,
 			'value': null
 		}
-		@error = false
+		@error = null
+		@opts = {
+			'processors': {
+				'string': opts?.processors?.string ? null,
+				'date': opts?.processors?.date ? null,
+				'true': opts?.processors?.true ? null,
+				'false': opts?.processors?.false ? null,
+				'real': opts?.processors?.real ? null,
+				'data': opts?.processors?.data ? null,
+				'dict': opts?.processors?.dict ? null,
+				'array': opts?.processors?.array ? null
+			}
+		}
 
-		if not @validate()
-			return @error
-
-		return @parse()
-
+		return @
 
 	validate: ->
 		parser = @sax.parser(true)
 
+		parser.onopentag = (node) ->
+			if not @first
+				@first = true
+				if node.name != 'plist'
+					@error = new Error('Invalid Property List contents (<plist> missing)')
+
 		parser.ondoctype = (doctype) =>
 			if doctype != ' plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"'
-				@error = new Error('Invalid DOCTYPE')
+				@error = new Error('Invalid Property List DOCTYPE')
 
 		parser.onerror = (error) =>
 			@error = error
@@ -98,7 +115,6 @@ class PlistParser
 
 		parser.onopentag = (node) =>
 			if (node.name == 'plist')
-				@validates = true
 				return
 
 			else if (node.name == 'key')
@@ -106,7 +122,7 @@ class PlistParser
 				return
 
 			if not @traverser
-				@traverser = new PlistNode(node.name)
+				@traverser = @last.node = new PlistNode(node.name)
 				return
 			
 			@last.node = @traverser.addChild(new PlistNode(node.name))
