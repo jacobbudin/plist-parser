@@ -1,0 +1,16 @@
+{
+	"name": "plist-parser",
+	"description": "A XML Property List (.plist) parser in JavaScript",
+	"author": "Jacob Budin <self@jacobbudin.com> (http://www.jacobbudin.com/)",
+	"version": "1.0",
+	"main": "lib/plist-parser.js",
+	"license": "MIT",
+	"dependencies" : {
+		"sax"			: "0.5.*",
+	},
+	"keywords": [
+		"xml",
+		"plist"
+  ],
+	"repository": "git://github.com/jacobbudin/plist-parser-js.git"
+}
