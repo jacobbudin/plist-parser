@@ -13,31 +13,31 @@ Include `plist-parser.js` and create a new instance of `PlistParser`.
 `PlistParser` has three methods: a constructor, `validate`, and `parse`. `PlistNode` is a helper class. If the the XML file fails validation or parsing, an [`Error` instance](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Error) will be stored as an `error` property of your `PlistParser` instance.
 
 ```html
-	<html>
-	<head>
-		<title>Hello world</title>
-		<script type="text/javascript" src="sax.js"></script>
-		<script type="text/javascript" src="plist-parser.js"></script>
-		<script type="text/javascript">
-			var xml, plist, result;
+<html>
+<head>
+	<title>Hello world</title>
+	<script type="text/javascript" src="sax.js"></script>
+	<script type="text/javascript" src="plist-parser.js"></script>
+	<script type="text/javascript">
+		var xml, plist, result;
 
-			// Example input (replace this with the contents of valid XML Property List file)
-			xml = '<?xml version="1.0" encoding="UTF-8"?>...';
+		// Example input (replace this with the contents of valid XML Property List file)
+		xml = '<?xml version="1.0" encoding="UTF-8"?>...';
 
-			// Create a new instance of the parser with your input
-			plist = new PlistParser(xml);
+		// Create a new instance of the parser with your input
+		plist = new PlistParser(xml);
 
-			// Validate the input
-			if(plist.validate()){
-				// Parse the input, returning a JS object
-				result = plist.parse();
-			}
-		</script>
-	</head>
-	<body>
-		
-	</body>
-	</html>
+		// Validate the input
+		if(plist.validate()){
+			// Parse the input, returning a JS object
+			result = plist.parse();
+		}
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
 ```
 
 ## Processors
@@ -49,10 +49,10 @@ PlistParser parser includes processor functions to convert values into their app
 For example, if we wanted all `string` node values converted into integers:
 
 ```js
-	plist = new PlistParser(xml, {
-		'processors': {
-			'string': function(value){ return parseInt(value, 10); }
-		});
+plist = new PlistParser(xml, {
+	'processors': {
+		'string': function(value){ return parseInt(value, 10); }
+	});
 ```
 
 ## License
