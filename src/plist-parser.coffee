@@ -1,3 +1,5 @@
+root = exports ? this
+
 class PlistNode
 	constructor: (type, processors) ->
 		@type = type
@@ -64,10 +66,15 @@ class PlistNode
 
 class PlistParser
 	constructor: (xml, opts=null) ->
-		if not sax?
+		if exports?
+			try
+				sax = require('sax')
+			catch e
+				
+		if not sax? and not root.sax?
 			return new Error('Missing required dependency: sax-js (https://github.com/isaacs/sax-js)')
 
-		@sax = sax
+		@sax = sax ? root.sax
 		@xml = xml
 		@traverser = null
 		@last = {
@@ -158,4 +165,4 @@ class PlistParser
 		parser.write(@xml).close()
 		return @traverser.convert()
 
-window.PlistParser = PlistParser
+root.PlistParser = PlistParser
