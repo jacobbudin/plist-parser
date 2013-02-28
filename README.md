@@ -12,6 +12,7 @@ Include `plist-parser.js` and create a new instance of `PlistParser`.
 
 `PlistParser` has three methods: a constructor, `validate`, and `parse`. `PlistNode` is a helper class. If the the XML file fails validation or parsing, an [`Error` instance](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Error) will be stored as an `error` property of your `PlistParser` instance.
 
+```html
 	<html>
 	<head>
 		<title>Hello world</title>
@@ -37,6 +38,7 @@ Include `plist-parser.js` and create a new instance of `PlistParser`.
 		
 	</body>
 	</html>
+```
 
 ## Processors
 
@@ -46,10 +48,12 @@ PlistParser parser includes processor functions to convert values into their app
 
 For example, if we wanted all `string` node values converted into integers:
 
+```js
 	plist = new PlistParser(xml, {
 		'processors': {
 			'string': function(value){ return parseInt(value, 10); }
 		});
+```
 
 ## License
 
