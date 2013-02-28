@@ -1,10 +1,11 @@
 class PlistNode
-	constructor: (type, parent=null) ->
+	constructor: (type, processors) ->
 		@type = type
+		@processors = processors
+
 		@key = null
 		@value = null
-
-		@parent = parent
+		@parent = null
 		@children = []
 
 		return @
@@ -22,6 +23,9 @@ class PlistNode
 
 	convert: () ->
 		if not @children.length
+			if @processors[@type]
+				return @processors[@type](@value)
+
 			if @type == 'integer'
 				return parseInt(@value, 10)
 			else if @type == 'string'
@@ -43,6 +47,8 @@ class PlistNode
 				return {}
 			else if @type == 'array'
 				return []
+			else
+				return @value
 		else
 			if @type == 'dict'
 				iterable = {}
@@ -74,6 +80,7 @@ class PlistParser
 		@error = null
 		@opts = {
 			'processors': {
+				'integer': opts?.processors?.integer ? null,
 				'string': opts?.processors?.string ? null,
 				'date': opts?.processors?.date ? null,
 				'true': opts?.processors?.true ? null,
@@ -122,10 +129,10 @@ class PlistParser
 				return
 
 			if not @traverser
-				@traverser = @last.node = new PlistNode(node.name)
+				@traverser = @last.node = new PlistNode(node.name, @opts.processors)
 				return
 			
-			@last.node = @traverser.addChild(new PlistNode(node.name))
+			@last.node = @traverser.addChild(new PlistNode(node.name, @opts.processors))
 
 			if @last.key
 				@last.node.key = @last.key.valueOf()

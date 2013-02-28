@@ -38,9 +38,18 @@ Include `plist-parser.js` and create a new instance of `PlistParser`.
 	</body>
 	</html>
 
-## Caveats
+## Processors
 
-You may need to replace the parsing of `data` nodes to better suit your project's needs because of [various issues](https://developer.mozilla.org/en-US/docs/DOM/window.btoa).
+PlistParser parser includes processor functions to convert values into their appropriate JavaScript types. For example, you may need to replace the parsing of `data` nodes to better suit your project's needs because of [various issues](https://developer.mozilla.org/en-US/docs/DOM/window.btoa).
+
+`PlistParser` accepts an options object as its second argument to override the default processors. You can override as many or as few as you choose. If a processor is not provided, PlistParser will use the appropriate default processor.
+
+For example, if we wanted all `string` node values converted into integers:
+
+	plist = new PlistParser(xml, {
+		'processors': {
+			'string': function(value){ return parseInt(value, 10); }
+		});
 
 ## License
 
