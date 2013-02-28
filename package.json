@@ -6,11 +6,11 @@
 	"main": "lib/plist-parser.js",
 	"license": "MIT",
 	"dependencies" : {
-		"sax"			: "0.5.*",
+		"sax": "0.5.*"
 	},
 	"keywords": [
 		"xml",
 		"plist"
-  ],
+	],
 	"repository": "git://github.com/jacobbudin/plist-parser-js.git"
 }
