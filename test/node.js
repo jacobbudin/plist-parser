@@ -11,5 +11,3 @@ if(plist.validate()){
 	// Parse the input, returning a JS object
 	var result = plist.parse();
 }
-
-console.log(result['Playlists'][0]['Playlist Items']);
