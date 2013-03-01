@@ -6,6 +6,14 @@ PlistParser is an XML Property List (.plist) parser in JavaScript. It may be use
 
 PlistParser requires [sax-js](https://github.com/isaacs/sax-js).
 
+## Installation
+
+PlistParser is not currently listed any package managers, but in many cases, you should be able to install it from its repository. For example, to install PlistParser with NPM:
+
+	$ npm install https://github.com/jacobbudin/plist-parser/archive/master.tar.gz
+
+To use PlistParser client-side, simply include the `<script>` tags as shown below.
+
 ## Usage
 
 Include `plist-parser.js` and create a new instance of `PlistParser`.
