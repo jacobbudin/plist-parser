@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2013-01-27T19:22:34Z</date>
+	<key>Application Version</key><string>11.0.1</string>
+	<key>Features</key><integer>5</integer>
+	<key>Music Folder</key><string>file://localhost/Users/jacobbudin/Music/</string>
+	<key>Library Persistent ID</key><string>1AF45B92F50EEC66</string>
+	<key>Tracks</key>
+	<dict>
+		<key>17351</key>
+		<dict>
+			<key>Track ID</key><integer>17351</integer>
+			<key>Name</key><string>Locals Only</string>
+			<key>Artist</key><string>Dom Kennedy</string>
+			<key>Album Artist</key><string>Dom Kennedy</string>
+			<key>Album</key><string>Locals Only - Single</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>5745206</integer>
+			<key>Total Time</key><integer>158747</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:35:11Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Date</key><integer>3383489296</integer>
+			<key>Play Date UTC</key><date>2011-03-20T23:08:16Z</date>
+			<key>Release Date</key><date>2011-03-04T08:00:00Z</date>
+			<key>Normalization</key><integer>829</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Locals Only - Single</string>
+			<key>Sort Artist</key><string>Dom Kennedy</string>
+			<key>Sort Name</key><string>Locals Only</string>
+			<key>Persistent ID</key><string>42130C4BBE21AAE4</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Dom%20Kennedy/Locals%20Only%20-%20Single/01%20Locals%20Only.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17353</key>
+		<dict>
+			<key>Track ID</key><integer>17353</integer>
+			<key>Name</key><string>When Darkness Falls</string>
+			<key>Artist</key><string>Strong Arm Steady</string>
+			<key>Album Artist</key><string>Strong Arm Steady</string>
+			<key>Album</key><string>When Darkness Falls - Single</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8873720</integer>
+			<key>Total Time</key><integer>257636</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:35:05Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Date</key><integer>3383489552</integer>
+			<key>Play Date UTC</key><date>2011-03-20T23:12:32Z</date>
+			<key>Release Date</key><date>2011-02-25T08:00:00Z</date>
+			<key>Normalization</key><integer>1919</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>When Darkness Falls - Single</string>
+			<key>Sort Artist</key><string>Strong Arm Steady</string>
+			<key>Sort Name</key><string>When Darkness Falls</string>
+			<key>Persistent ID</key><string>78A771D83B591862</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Strong%20Arm%20Steady/When%20Darkness%20Falls%20-%20Single/01%20When%20Darkness%20Falls.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17355</key>
+		<dict>
+			<key>Track ID</key><integer>17355</integer>
+			<key>Name</key><string>Shell Games</string>
+			<key>Artist</key><string>Bright Eyes</string>
+			<key>Album Artist</key><string>Bright Eyes</string>
+			<key>Album</key><string>The People's Key</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8366309</integer>
+			<key>Total Time</key><integer>235813</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:35:07Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3383489788</integer>
+			<key>Play Date UTC</key><date>2011-03-20T23:16:28Z</date>
+			<key>Release Date</key><date>2011-02-15T08:00:00Z</date>
+			<key>Normalization</key><integer>4452</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>People's Key</string>
+			<key>Persistent ID</key><string>AAB4042FA9DF9725</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Bright%20Eyes/The%20People's%20Key/02%20Shell%20Games.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17357</key>
+		<dict>
+			<key>Track ID</key><integer>17357</integer>
+			<key>Name</key><string>Blackout</string>
+			<key>Artist</key><string>Anna Calvi</string>
+			<key>Album Artist</key><string>Anna Calvi</string>
+			<key>Album</key><string>Anna Calvi</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8771820</integer>
+			<key>Total Time</key><integer>245666</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:35:45Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3383490033</integer>
+			<key>Play Date UTC</key><date>2011-03-20T23:20:33Z</date>
+			<key>Release Date</key><date>2011-01-18T08:00:00Z</date>
+			<key>Normalization</key><integer>7580</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>70EDE96352B738DD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Anna%20Calvi/Anna%20Calvi/07%20Blackout.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17359</key>
+		<dict>
+			<key>Track ID</key><integer>17359</integer>
+			<key>Name</key><string>Walk On</string>
+			<key>Artist</key><string>G. Love</string>
+			<key>Album Artist</key><string>G. Love</string>
+			<key>Composer</key><string>Garrett Dutton</string>
+			<key>Album</key><string>Fixin' to Die</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7965992</integer>
+			<key>Total Time</key><integer>222626</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:37:04Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Date</key><date>2011-03-20T23:20:36Z</date>
+			<key>Release Date</key><date>2011-02-22T08:00:00Z</date>
+			<key>Normalization</key><integer>5379</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Fixin' to Die</string>
+			<key>Sort Artist</key><string>G. Love</string>
+			<key>Sort Name</key><string>Walk On</string>
+			<key>Persistent ID</key><string>C3E56A25BB6AD728</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/G.%20Love/Fixin'%20to%20Die/07%20Walk%20On.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17361</key>
+		<dict>
+			<key>Track ID</key><integer>17361</integer>
+			<key>Name</key><string>Strawberry Amazing</string>
+			<key>Artist</key><string>Miguel</string>
+			<key>Album Artist</key><string>Miguel</string>
+			<key>Composer</key><string>Miguel</string>
+			<key>Album</key><string>Strawberry Amazing - Single</string>
+			<key>Genre</key><string>R&#38;B/Soul</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7351972</integer>
+			<key>Total Time</key><integer>207666</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:37:31Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-02T08:00:00Z</date>
+			<key>Normalization</key><integer>6039</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>198F2A724EDC174D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Miguel/Strawberry%20Amazing%20-%20Single/01%20Strawberry%20Amazing.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17363</key>
+		<dict>
+			<key>Track ID</key><integer>17363</integer>
+			<key>Name</key><string>Despicable Dogs</string>
+			<key>Artist</key><string>Small Black</string>
+			<key>Album Artist</key><string>Small Black</string>
+			<key>Album</key><string>Small Black EP (Deluxe Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8262929</integer>
+			<key>Total Time</key><integer>233861</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2011-03-08T22:36:28Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-04-26T07:00:00Z</date>
+			<key>Normalization</key><integer>8580</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>576E130D419F6D0F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Small%20Black/Small%20Black%20EP%20(Deluxe%20Version)/01%20Despicable%20Dogs.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17365</key>
+		<dict>
+			<key>Track ID</key><integer>17365</integer>
+			<key>Name</key><string>Merrymake It With Me</string>
+			<key>Artist</key><string>The Republic Tigers</string>
+			<key>Album Artist</key><string>The Republic Tigers</string>
+			<key>Composer</key><string>The Republic Tigers</string>
+			<key>Album</key><string>Merrymake It With Me - Single</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>10211287</integer>
+			<key>Total Time</key><integer>270653</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:37:53Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-08T08:00:00Z</date>
+			<key>Normalization</key><integer>4185</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Republic Tigers</string>
+			<key>Sort Artist</key><string>Republic Tigers</string>
+			<key>Sort Composer</key><string>Republic Tigers</string>
+			<key>Persistent ID</key><string>7D55C64D39C33D29</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/The%20Republic%20Tigers/Merrymake%20It%20With%20Me%20-%20Single/01%20Merrymake%20It%20With%20Me.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17367</key>
+		<dict>
+			<key>Track ID</key><integer>17367</integer>
+			<key>Name</key><string>Mexican Mavis</string>
+			<key>Artist</key><string>Boy &#38; Bear</string>
+			<key>Album Artist</key><string>Boy &#38; Bear</string>
+			<key>Album</key><string>Mexican Mavis - Single</string>
+			<key>Genre</key><string>Singer/Songwriter</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6647660</integer>
+			<key>Total Time</key><integer>186403</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2011-03-08T22:37:55Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3421062916</integer>
+			<key>Play Date UTC</key><date>2012-05-28T20:15:16Z</date>
+			<key>Release Date</key><date>2009-09-24T07:00:00Z</date>
+			<key>Normalization</key><integer>4698</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2DDA7BCE46AEAB08</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Boy%20&#38;%20Bear/Mexican%20Mavis%20-%20Single/01%20Mexican%20Mavis.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17369</key>
+		<dict>
+			<key>Track ID</key><integer>17369</integer>
+			<key>Name</key><string>Seeing Black</string>
+			<key>Artist</key><string>Lucinda Williams</string>
+			<key>Album Artist</key><string>Lucinda Williams</string>
+			<key>Composer</key><string>Lucinda Williams</string>
+			<key>Album</key><string>Blessed (Deluxe Edition)</string>
+			<key>Genre</key><string>Singer/Songwriter</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>11718874</integer>
+			<key>Total Time</key><integer>314146</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:40:11Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-03-01T08:00:00Z</date>
+			<key>Normalization</key><integer>5926</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Blessed (Deluxe Edition)</string>
+			<key>Sort Artist</key><string>Lucinda Williams</string>
+			<key>Sort Name</key><string>Seeing Black</string>
+			<key>Persistent ID</key><string>75612A87553A4057</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Lucinda%20Williams/Blessed%20(Deluxe%20Edition)/1-05%20Seeing%20Black.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17371</key>
+		<dict>
+			<key>Track ID</key><integer>17371</integer>
+			<key>Name</key><string>Kiss &#38; Kill</string>
+			<key>Artist</key><string>Le Butcherettes</string>
+			<key>Album Artist</key><string>Le Butcherettes</string>
+			<key>Album</key><string>Kiss &#38; Kill</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6222472</integer>
+			<key>Total Time</key><integer>174130</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>8</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2011-03-08T22:38:42Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-05-27T07:00:00Z</date>
+			<key>Normalization</key><integer>2066</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Kiss &#38; Kill</string>
+			<key>Sort Artist</key><string>Le Butcherettes</string>
+			<key>Sort Name</key><string>Kiss &#38; Kill</string>
+			<key>Persistent ID</key><string>0D0FAE5A4BA9BABD</string>
+			<key>Clean</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Le%20Butcherettes/Kiss%20&#38;%20Kill/04%20Kiss%20&#38;%20Kill.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17373</key>
+		<dict>
+			<key>Track ID</key><integer>17373</integer>
+			<key>Name</key><string>Post Break-Up Sex</string>
+			<key>Artist</key><string>The Vaccines</string>
+			<key>Album Artist</key><string>The Vaccines</string>
+			<key>Composer</key><string>Arni Hjorvar Arnason, Freddie Cowan, Justin Hayward-Young &#38; Peter Robertson</string>
+			<key>Album</key><string>The Vaccines - EP</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6743872</integer>
+			<key>Total Time</key><integer>176346</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>3</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:38:43Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-02-08T08:00:00Z</date>
+			<key>Normalization</key><integer>14522</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Vaccines - EP</string>
+			<key>Sort Album Artist</key><string>Vaccines</string>
+			<key>Sort Artist</key><string>Vaccines</string>
+			<key>Persistent ID</key><string>CB637381278EBA3C</string>
+			<key>Explicit</key><true/>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/The%20Vaccines/The%20Vaccines%20-%20EP/01%20Post%20Break-Up%20Sex.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17375</key>
+		<dict>
+			<key>Track ID</key><integer>17375</integer>
+			<key>Name</key><string>Living In America</string>
+			<key>Artist</key><string>Dom</string>
+			<key>Album Artist</key><string>Dom</string>
+			<key>Composer</key><string>Dominic</string>
+			<key>Album</key><string>Sun Bronzed Greek Gods (Bonus Track Version)</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6695034</integer>
+			<key>Total Time</key><integer>186946</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>2</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>7</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:39:45Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-02-15T08:00:00Z</date>
+			<key>Normalization</key><integer>4356</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B2448674A392F3E8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Dom/Sun%20Bronzed%20Greek%20Gods%20(Bonus%20Track%20Version)/1-02%20Living%20In%20America.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17377</key>
+		<dict>
+			<key>Track ID</key><integer>17377</integer>
+			<key>Name</key><string>Roni</string>
+			<key>Artist</key><string>Chikita Violenta</string>
+			<key>Album Artist</key><string>Chikita Violenta</string>
+			<key>Album</key><string>Tre3s</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>8314379</integer>
+			<key>Total Time</key><integer>218253</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:39:36Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-01-25T08:00:00Z</date>
+			<key>Normalization</key><integer>7586</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Tre3s</string>
+			<key>Sort Artist</key><string>Chikita Violenta</string>
+			<key>Sort Name</key><string>Roni</string>
+			<key>Persistent ID</key><string>869CC654CF7B6455</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Chikita%20Violenta/Tre3s/01%20Roni.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17379</key>
+		<dict>
+			<key>Track ID</key><integer>17379</integer>
+			<key>Name</key><string>Barton Hollow</string>
+			<key>Artist</key><string>The Civil Wars</string>
+			<key>Album Artist</key><string>The Civil Wars</string>
+			<key>Album</key><string>Barton Hollow</string>
+			<key>Genre</key><string>Singer/Songwriter</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7394591</integer>
+			<key>Total Time</key><integer>205773</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:41:46Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3421063120</integer>
+			<key>Play Date UTC</key><date>2012-05-28T20:18:40Z</date>
+			<key>Release Date</key><date>2011-02-01T08:00:00Z</date>
+			<key>Normalization</key><integer>4219</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Civil Wars</string>
+			<key>Sort Artist</key><string>Civil Wars</string>
+			<key>Persistent ID</key><string>A1819659A348DAAB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/The%20Civil%20Wars/Barton%20Hollow/07%20Barton%20Hollow.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17381</key>
+		<dict>
+			<key>Track ID</key><integer>17381</integer>
+			<key>Name</key><string>Our Hearts Are Wrong</string>
+			<key>Artist</key><string>Jessica Lea Mayfield</string>
+			<key>Album Artist</key><string>Jessica Lea Mayfield</string>
+			<key>Album</key><string>Tell Me</string>
+			<key>Genre</key><string>Singer/Songwriter</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7122457</integer>
+			<key>Total Time</key><integer>186586</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:40:42Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3421063306</integer>
+			<key>Play Date UTC</key><date>2012-05-28T20:21:46Z</date>
+			<key>Release Date</key><date>2011-02-07T08:00:00Z</date>
+			<key>Normalization</key><integer>2632</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E5B3DF39705630BD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Jessica%20Lea%20Mayfield/Tell%20Me/02%20Our%20Hearts%20Are%20Wrong.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17383</key>
+		<dict>
+			<key>Track ID</key><integer>17383</integer>
+			<key>Name</key><string>Mirrorage</string>
+			<key>Artist</key><string>Glasser</string>
+			<key>Album Artist</key><string>Glasser</string>
+			<key>Composer</key><string>Cameron Mesirow</string>
+			<key>Album</key><string>Ring (Bonus Track Edition)</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7897446</integer>
+			<key>Total Time</key><integer>219404</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2011-03-08T22:40:47Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2010-09-27T07:00:00Z</date>
+			<key>Normalization</key><integer>3362</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D67CF390811DBA03</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Glasser/Ring%20(Bonus%20Track%20Edition)/07%20Mirrorage.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17385</key>
+		<dict>
+			<key>Track ID</key><integer>17385</integer>
+			<key>Name</key><string>Still Sound</string>
+			<key>Artist</key><string>Toro y Moi</string>
+			<key>Album Artist</key><string>Toro y Moi</string>
+			<key>Album</key><string>Underneath the Pine</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>10524948</integer>
+			<key>Total Time</key><integer>269666</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:41:39Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-02-21T08:00:00Z</date>
+			<key>Normalization</key><integer>2861</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4CE4AD9DDAF6E814</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Toro%20y%20Moi/Underneath%20the%20Pine/09%20Still%20Sound.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17387</key>
+		<dict>
+			<key>Track ID</key><integer>17387</integer>
+			<key>Name</key><string>Darling Buds of May</string>
+			<key>Artist</key><string>Brother</string>
+			<key>Album Artist</key><string>Brother</string>
+			<key>Composer</key><string>Leonard Newell, Samuel Jackson, Josh Ward, Frank Colucci &#38; Dan Kingham</string>
+			<key>Album</key><string>Darling Buds of May - Single</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7415044</integer>
+			<key>Total Time</key><integer>197213</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:42:21Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-01-16T08:00:00Z</date>
+			<key>Normalization</key><integer>13544</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Darling Buds of May - Single</string>
+			<key>Sort Artist</key><string>Brother</string>
+			<key>Sort Name</key><string>Darling Buds of May</string>
+			<key>Persistent ID</key><string>BAF4A1506ECCC264</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Brother/Darling%20Buds%20of%20May%20-%20Single/01%20Darling%20Buds%20of%20May.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17389</key>
+		<dict>
+			<key>Track ID</key><integer>17389</integer>
+			<key>Name</key><string>Another Like You</string>
+			<key>Artist</key><string>Hayes Carll</string>
+			<key>Album Artist</key><string>Hayes Carll</string>
+			<key>Composer</key><string>Hayes Carll</string>
+			<key>Album</key><string>KMAG YOYO (&#38; Other American Stories)</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7242118</integer>
+			<key>Total Time</key><integer>199733</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:42:14Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-02-15T08:00:00Z</date>
+			<key>Normalization</key><integer>4387</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F9F81F0ECB6AE0D5</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Hayes%20Carll/KMAG%20YOYO%20(&#38;%20Other%20American%20Stories)/06%20Another%20Like%20You.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17391</key>
+		<dict>
+			<key>Track ID</key><integer>17391</integer>
+			<key>Name</key><string>Helena Beat</string>
+			<key>Artist</key><string>Foster the People</string>
+			<key>Album Artist</key><string>Foster the People</string>
+			<key>Composer</key><string>Mark Foster</string>
+			<key>Album</key><string>Foster the People - EP</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>9542322</integer>
+			<key>Total Time</key><integer>276026</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>3</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:43:01Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3410698003</integer>
+			<key>Play Date UTC</key><date>2012-01-29T21:06:43Z</date>
+			<key>Release Date</key><date>2011-01-18T08:00:00Z</date>
+			<key>Normalization</key><integer>3885</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>38C1DE85A9937A5F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Foster%20the%20People/Foster%20the%20People%20-%20EP/03%20Helena%20Beat.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>17393</key>
+		<dict>
+			<key>Track ID</key><integer>17393</integer>
+			<key>Name</key><string>So Low</string>
+			<key>Artist</key><string>Talib Kweli</string>
+			<key>Album Artist</key><string>Talib Kweli</string>
+			<key>Album</key><string>Gutter Rainbows</string>
+			<key>Genre</key><string>Hip Hop/Rap</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>6963539</integer>
+			<key>Total Time</key><integer>194746</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-03-08T22:43:00Z</date>
+			<key>Date Added</key><date>2011-03-08T22:33:56Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2011-01-25T08:00:00Z</date>
+			<key>Normalization</key><integer>5023</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Gutter Rainbows</string>
+			<key>Sort Artist</key><string>Talib Kweli</string>
+			<key>Sort Name</key><string>So Low</string>
+			<key>Persistent ID</key><string>80707866A5CFABCE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/Users/jacobbudin/Music/Talib%20Kweli/Gutter%20Rainbows/03%20So%20Low.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>SXSW: Featured Artists</string>
+			<key>Playlist ID</key><integer>36044</integer>
+			<key>Playlist Persistent ID</key><string>04BD914C71ECCC95</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>17351</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17353</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17355</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17357</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17359</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17361</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17363</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17365</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17367</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17369</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17371</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17373</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17375</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17377</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17379</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17381</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17383</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17385</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17387</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17389</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17391</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17393</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
