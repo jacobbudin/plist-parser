@@ -25,7 +25,7 @@ class PlistNode
 
 	convert: () ->
 		if not @children.length
-			if @processors[@type]
+			if @processors? and @processors[@type]?
 				return @processors[@type](@value)
 
 			if @type == 'integer'
@@ -66,7 +66,7 @@ class PlistNode
 
 class PlistParser
 	constructor: (xml, opts=null) ->
-		if exports?
+		if exports? and not exports.sax?
 			try
 				sax = require('sax')
 			catch e
@@ -166,3 +166,4 @@ class PlistParser
 		return @traverser.convert()
 
 root.PlistParser = PlistParser
+root.PlistNode = PlistNode
