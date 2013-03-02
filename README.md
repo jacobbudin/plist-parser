@@ -2,10 +2,6 @@
 
 PlistParser is an XML Property List (.plist) parser in JavaScript. It may be used both as client-side JavaScript and derivative programming languages that implement [CommonJS](http://www.commonjs.org) such as [node.js](http://nodejs.org).
 
-## Status
-
-PlistParser is undergoing very rapid initial development. It is nominally v0.9 (as seen in `package.json`), but since the repository has not been published to any package managers, I won't be updating this as often as I would otherwise.
-
 ## Dependencies
 
 PlistParser requires [sax-js](https://github.com/isaacs/sax-js).
