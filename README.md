@@ -1,6 +1,12 @@
-# PlistParser
+# PlistParser [![Build Status](https://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].png)](https://travis-ci.org/jacobbudin/plist-parser)
 
 PlistParser is an XML Property List (.plist) parser in JavaScript. It may be used both as client-side JavaScript and derivative programming languages that implement [CommonJS](http://www.commonjs.org) such as [node.js](http://nodejs.org).
+
+## Status
+
+PlistParser is undergoing very rapid initial development. It is nominally v1.0 (as seen in `package.json`), but since the repository has not been published to any package managers, I won't be updating this as often as I would otherwise.
+
+You can review the current build condition at [Travis](https://travis-ci.org/jacobbudin/plist-parser). [![Build Status](https://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].png)](https://travis-ci.org/jacobbudin/plist-parser)
 
 ## Dependencies
 

@@ -5,8 +5,11 @@
 	"version": "1.0.0",
 	"main": "lib/plist-parser.js",
 	"license": "MIT",
-	"dependencies" : {
+	"dependencies": {
 		"sax": "0.5.x"
+	},
+	"scripts": {
+		"test": "make test"
 	},
 	"keywords": [
 		"xml",
