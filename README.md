@@ -8,7 +8,7 @@ PlistParser requires [sax-js](https://github.com/isaacs/sax-js).
 
 ## Installation
 
-PlistParser is not currently listed any package managers, but in many cases, you should be able to install it from its repository. For example, to install PlistParser with NPM:
+PlistParser has not yet been submitted to any package managers, but in many cases you should be able to install it directly from its master archive. For example, to install PlistParser with [npm](https://npmjs.org):
 
 	$ npm install https://github.com/jacobbudin/plist-parser/archive/master.tar.gz
 
