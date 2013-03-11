@@ -2,7 +2,7 @@
 	"name": "plist-parser",
 	"description": "A XML Property List (.plist) parser in JavaScript",
 	"author": "Jacob Budin <self@jacobbudin.com> (http://www.jacobbudin.com/)",
-	"version": "0.9.1",
+	"version": "0.9.2",
 	"main": "lib/plist-parser.js",
 	"license": "MIT",
 	"dependencies": {
