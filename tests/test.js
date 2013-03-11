@@ -45,4 +45,12 @@ describe('PlistParser', function(){
 			assert.equal(22, track_count);
 		})
 	})
+	describe('playlist', function(){
+		it('have a last Track ID value of 17393', function(){
+			var xml = fs.readFileSync(__dirname + '/xml/playlist.xml').toString();
+			var root = new PlistParser.PlistParser(xml).parse();
+
+			assert.equal(17393, root['Playlists'][0]['Playlist Items'][21]['Track ID']);
+		})
+	})
 })
