@@ -18,5 +18,5 @@
 		"xml",
 		"plist"
 	],
-	"repository": "git://github.com/jacobbudin/plist-parser-js.git"
+	"repository": "git://github.com/jacobbudin/plist-parser.git"
 }
