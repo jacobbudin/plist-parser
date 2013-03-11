@@ -158,9 +158,11 @@ class PlistParser
 				if @last.value
 					@last.key = @last.value.valueOf()
 					@last.value = null
-			else
+			else if @last.node
 				if @last.value
 					@last.node.value = @last.value.valueOf()
+
+				@last.node = null
 
 		parser.write(@xml).close()
 		return @traverser.convert()
